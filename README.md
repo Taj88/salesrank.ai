@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SalesRank.ai
+
+This is a React.js application built with Vite, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
+To run the development server:
 
 ```bash
+# Install dependencies
+npm install
+# or
+yarn
+
+# Start the development server
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/` - Contains all the source code
+  - `components/` - Reusable UI components
+  - `pages/` - Page components that represent routes
+  - `App.tsx` - Main application component
+  - `main.tsx` - Entry point for the React application
 
-## Learn More
+## Tools and Technologies
 
-To learn more about Next.js, take a look at the following resources:
+### Core Dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **React 19**: Latest version of the React library for building user interfaces
+- **React DOM**: Package for working with the DOM in React applications
+- **React Router DOM**: Declarative routing for React applications
+- **TypeScript**: Strongly typed programming language that builds on JavaScript
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Development Tools
 
-## Deploy on Vercel
+- **Vite**: Next generation frontend tooling for faster development and optimized builds
+- **ESLint**: Pluggable JavaScript linter for identifying and reporting patterns
+- **PostCSS**: Tool for transforming CSS with JavaScript plugins
+- **Autoprefixer**: PostCSS plugin to parse CSS and add vendor prefixes
+- **TypeScript**: Static type checking for JavaScript
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- React 19 with latest features
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Vite for fast development and optimized builds
+- ESLint for code quality
+- Responsive design with mobile and desktop layouts
+- Modern UI components
+
+## Screenshots
+
+Below are screenshots of the application:
+
+### Desktop View
+
+![Desktop View](/public/screenshots/desktop-screenshot.png)
+_SalesRank.ai homepage showing the AI-Powered Sales Coach interface with navigation menu, hero section, and key metrics_
+
+### Mobile View
+
+![Mobile View](/public/screenshots/mobile-screenshot.png)
+_SalesRank.ai mobile interface displaying the same AI-Powered Sales Coach features optimized for smaller screens_
+
+## Deployment
+
+To build the application for production:
+
+```bash
+# Create a production build
+npm run build
+# or
+yarn build
+
+# Preview the production build locally
+npm run serve
+# or
+yarn serve
+```
+
+The build output will be generated in the `dist` directory, which can be deployed to any static hosting service.
