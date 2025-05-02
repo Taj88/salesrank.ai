@@ -12,4 +12,8 @@ export default defineConfig({
     server: {
         port: 3000,
     },
+    build: {
+        outDir: 'build', // Set the output directory to 'build'
+        emptyOutDir: true, // Empty the output directory before building
+    },
 });
