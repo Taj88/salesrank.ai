@@ -13,7 +13,7 @@ export default defineConfig({
         port: 3000,
     },
     build: {
-        outDir: 'build', // Set the output directory to 'build'
+        outDir: 'dist', // Changed from 'build' to 'dist' to match expected directory
         emptyOutDir: true, // Empty the output directory before building
     },
 });
